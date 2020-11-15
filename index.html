@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>f00d-w@st€-hack0rZ</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <!-- HERE GOES CONTENT! -->
+    <!-- Add header toolbar -->
+    <nav>
+
+    </nav>
+    <!-- Add warning window div -->
+    <div class="warning-window" id="warning-window">
+        <div class="warning-window-text">Warning
+            <button class="closestart close">X</button>
+        </div>
+        <div class="warning-window-body">
+            <img class="warning" src="images/warning.png" alt="warning-triangle">
+            <h1>DON'T WASTE FOOD!</h1>
+            <p class="warningtext">Pick a folder to get an awesome life hack to re-use your food waste.</p>
+            <p class="warningtext2">Just do it for mother nature... She needs help.</p>
+        </div>
+    </div>
+    <!-- Add error window div -->
+    <div class="error-window" id="error-window">
+        <div class="error-window-text">Can't choose?
+            <!-- <button class="closestart close">X</button> -->
+        </div>
+        <div class="error-window-body">
+            <div class="error-image">
+                <img class="error" src="images/error.png" alt="error">
+            </div>
+            <h2 class="randomize-text">Randomize a hack!</h2>
+            <button class="randomize" id="randomize">OK</button>
+        </div>
+    </div>
+    <!-- Add gif window div -->
+    <div class="hello-gif" id="hello-gif">
+        <div class="hello-gif-text">Something
+            <!-- <button class="closestart close">X</button> -->
+        </div>
+        <img class="hellogif" src="images/dumpster.gif" alt="dumpster">
+    </div>
+
+    <!-- Add buttons -->
+    <div class="folders-container">
+        <div class="folders">
+            <button id="a" class="folder">Coffee grinds</button>
+            <button id="b" class="folder">Lemon peel</button>
+            <button id="c" class="folder">Tea bags</button>
+            <button id="d" class="folder">Olive stones</button>
+            <button id="e" class="folder">Cheese whey</button>
+            <button id="f" class="folder">Apple scraps</button>
+            <button id="g" class="folder">Onion skins</button>
+            <button id="h" class="folder">Stale bread</button>
+            <button id="i" class="folder">Herb stalks</button>
+            <button id="j" class="folder">Banana peel</button>
+            <button id="k" class="folder">Trash bin</button>
+        </div>
+    </div>
+
+    <!-- Add tip elements-->
+    <!-- Coffee grinds -->
+    <div id="coffee-grinds" class="hidden tips">
+        <div class="tips-text">Coffee grinds
+            <button class="closecoffee close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Coffee grinds - Trash Brownies</h3>
+            <p class="tips-description">After you've made your morning coffee, take your ground coffee and place them in
+                a sealed reusable bag in
+                the fridge. Then, at the end of the week use them to make espresso brownies. Check out the recipe <a
+                    href="https://www.forkintheroad.co/leftover-espresso-grounds-brownies/">here</a></p>
+        </div>
+    </div>
+
+    <div id="coffee-gif" class="hidden gifs">
+        <div class="gif-text">Coffee grinds</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/coffegrinds.gif" alt="Trash Brownies">
+        </div>
+    </div>
+
+    <!-- Lemon peel -->
+    <div id="lemon-peel" class="hidden tips">
+        <div class="tips-text">Lemon peel
+            <button class="closelemon close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Lemon peel - Clean your home with your kitchen scraps</h3>
+            <p class="tips-description">To make your own cleaning spray, combine your citrus peel scraps with 2⁄3 cup of
+                white vinegar and let it
+                infuse for at least a week. Then, put one part citrus-vinegar and one part water in a spray bottle, and
+                use it as you would a normal house cleaner</p>
+        </div>
+    </div>
+
+    <div id="lemon-gif" class="hidden gifs">
+        <div class="gif-text">Lemon peel</div>
+        <div class="gif-body">
+            <img class="lemongif" src="images/lemonpeel.gif" alt="Lemon peel">
+        </div>
+    </div>
+
+    <!-- Tea bags -->
+    <div id="tea-bags" class="hidden tips">
+        <div class="tips-text">Tea bags
+            <button class="closetea close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Tea bags - Maybe she's born with it, maybe it's Yorkshire Tea</h3>
+            <p class="tips-description">Shiny hair! Rebrew 2 or 3 used tea bags in 2 cups of water and allow it to cool.
+                After shampooing your
+                hair, use the weak tea as a final hair rinse. Massage your scalp for 5 minutes, then rinse your hair
+                with plain water. Allow your hair to air dry to enjoy smooth and shiny hair. Use this hair treatment 2
+                times a week.</p>
+        </div>
+    </div>
+
+    <div id="tea-gif" class="hidden gifs">
+        <div class="gif-text">Lemon peel</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/teabags.gif" alt="Tea bags">
+        </div>
+    </div>
+
+    <!-- Olive stones -->
+    <div id="olive-stones" class="hidden tips">
+        <div class="tips-text">Olive stones
+            <button class="closeolive close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Olive stones - Keep em'. Make your oil more olivey</h3>
+            <p class="tips-description">Keep your olive pits and add them to your bottle of olive oil. The will enrich
+                the oil with more fruity
+                richness</p>
+        </div>
+    </div>
+
+    <div id="olive-gif" class="hidden gifs">
+        <div class="gif-text">Olive stones</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/olivestones.gif" alt="Olive stones">
+        </div>
+    </div>
+
+    <!-- Cheese whey -->
+    <div id="cheese-whey" class="hidden tips">
+        <div class="tips-text">Cheese whey
+            <button class="closecheese close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Cheese whey - Don't throw it a-whey 😎</h3>
+            <p class="tips-description">Feta brine & mozzarella whey. The white liquid that usually gets dumped down the
+                sink? Stop doing that!
+                This is great stuff for adding to rice, bread and pizza doughs, pasta-cooking water, and even stock
+                pots.</p>
+        </div>
+    </div>
+
+    <div id="cheese-gif" class="hidden gifs">
+        <div class="gif-text">Cheese whey</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/cheese.gif" alt="Cheese whey">
+        </div>
+    </div>
+
+    <!-- Apple scraps -->
+    <div id="apple-scraps" class="hidden tips">
+        <div class="tips-text">Apple scraps
+            <button class="closeapple close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Apple scraps - Ferment your own vinegar</h3>
+            <p class="tips-description">Apple scrap vinegar.
+                Combine the peel and cores from 6 large apples, 1 tbsp of sugar and enough water to cover in a bowl.
+                Stir and cover with a thin cloth. Over the next several days, stir your fermentation several times a
+                day. Once the ferment starts bubbling, stir it once a day. Fermentation times vary, but your vinegar
+                will likely start to taste sour after about a week. When it stops fizzing completely, you can store it
+                in bottles or jars. Be sure to burp them (open to release gas) once in a while incase it's still
+                fermenting a little!</p>
+        </div>
+    </div>
+
+    <div id="apple-gif" class="hidden gifs">
+        <div class="gif-text">Apple scraps</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/apples.gif" alt="Apple scraps">
+        </div>
+    </div>
+
+    <!-- Onion skins -->
+    <div id="onion-skins" class="hidden tips">
+        <div class="tips-text">Onion skins
+            <button class="closeonion close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Onion skins - Full of trashy goodness</h3>
+            <p class="tips-description">We often add onion to our broth but completely disregard the skins! They're just
+                as important for a
+                killer stock. This hidden kitchen gem imparts a gorgeous golden warmth to the liquid and gives it an
+                amazing depth of flavour.</p>
+        </div>
+    </div>
+
+    <div id="onion-gif" class="hidden gifs">
+        <div class="gif-text">Onion skins</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/onion.gif" alt="Onion skins">
+        </div>
+    </div>
+
+    <!-- Stale bread -->
+    <div id="stale-bread" class="hidden tips">
+        <div class="tips-text">Stale bread
+            <button class="closebread close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Stale bread - Turn your trash into a kind of sweet alcohol free beer? OK!</h3>
+            <p class="tips-description">Toast your stale breads, place them in a big mason jar with water, sourdough
+                starter, and some honey. Cap
+                the jar loosely, store it in room temperature for 3 up to 7 days, and you got a probiotic drink from
+                your leftover breads!</p>
+        </div>
+    </div>
+
+    <div id="bread-gif" class="hidden gifs">
+        <div class="gif-text">Stale bread</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/bread.gif" alt="Stale bread">
+        </div>
+    </div>
+
+    <!-- Herb stalks -->
+    <div id="herb-stalks" class="hidden tips">
+        <div class="tips-text">Herb stalks
+            <button class="closeherb close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Herb stalks - Salt bae, jaaass</h3>
+            <p class="tips-description">Dry out old herbs and stalks in the microwave. Heat on a paper towel at full
+                power for 30 seconds at a
+                time until crispy. Mix 1 tsp with 1/4 cup of sea salt for a little gourmet seasoning!</p>
+        </div>
+    </div>
+
+    <div id="herb-gif" class="hidden gifs">
+        <div class="gif-text">Herb stalks</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/herbstalks2.gif" alt="Herb stalks">
+        </div>
+    </div>
+
+    <!-- Banana peel -->
+    <div id="banana-peel" class="hidden tips">
+        <div class="tips-text">Banana peel
+            <button class="closebanana close">X</button>
+        </div>
+        <div class="tips-body">
+            <h3>Banana peel - Love the planet, love your plants</h3>
+            <p class="tips-description">Soaking banana skins in water for a few days creates a potassium rich plant
+                fertiliser.</p>
+        </div>
+    </div>
+
+    <div id="banana-gif" class="hidden gifs">
+        <div class="gif-text">Banana peel</div>
+        <div class="gif-body">
+            <img class="tipgif" src="images/bananapeel.gif" alt="Banana peel">
+        </div>
+    </div>
+
+    <!-- Trashcan -->
+    <div id="trashcan" class="hidden">
+        <div class="tips-text">Trash
+            <button class="closetrash close">X</button>
+        </div>
+        <div class="tips-body">
+            <img class="trashgif" src="images/trash.gif">
+            <h3 class="trashtext">This is all the food you waste...</h3>
+        </div>
+    </div>
+
+<!-- Contact us -->
+<div id="contact-window" class="hidden">
+    <div class="tips-text">Contact us
+        <button class="closecontact close">X</button>
+    </div>
+    <div class="tips-body">
+        <h3>The creators</h3>
+        <p class="contact-description"><span>Annika Tidén - annika.tiden@hyperisland.se <a href="https://www.linkedin.com/in/annika-tiden/">LinkedIn</a></span><span>Tor Neely - tor.neely@hyperisland.se <a href="https://www.linkedin.com/in/tor-neely-97a77a11b/">LinkedIn</a></span><span>Jessica Stephens - jessica.stephens@hyperisland.se <a href="https://www.linkedin.com/in/jessicadmc22/">LinkedIn</a></span></p>
+    </div>
+</div>
+
+<!-- Start bar -->
+    <footer class="taskbar">
+        <div class="row" style="margin-right: 0px;">
+            <div class="col-8">
+                <button class="msn" id="start"><img src="images/windows_slanted-0.png" icon-16> Start</button>
+                <button class="msn" id="contact"><img src="images/msn3-1.png" icon-16> Contact us</button>
+                <button class="msn" onclick="window.location.href='https://www.instagram.com/f00d_hack0rz/';"><img src="images/camera-3.png" icon-16> Instagram</button>
+                <button class="msn" onclick="window.location.href='file:///Users/annikatiden/Documents/HYPER%20ISLAND/Side%20projects/coding/food-waste/pacman.html';"><img src="images/pixel-pac-man-16x16.png"> Pac-Man</button>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
