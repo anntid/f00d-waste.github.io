@@ -343,6 +343,7 @@ p {
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 .folder {
